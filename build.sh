@@ -1,10 +1,10 @@
 #!/bin/bash
 
-BASEDIR="/home/cocafe/Android/CoCore_mini/"
+BASEDIR="/home/shaaan/kernel/"
 OUTDIR="$BASEDIR/out"
-INITRAMFSDIR="$BASEDIR/ramdisk-twrp2.2"
+INITRAMFSDIR="home/shaaan/ramdisk/ramdisk-cwm-6.0.2.8"
 #INITRAMFSDIR="$BASEDIR/ramdisk-twrp2.3"
-TOOLCHAIN="/home/cocafe/Android/toolchains/arm-eabi-4.4.3/bin/arm-eabi-"
+TOOLCHAIN="/home/shaaan/toolchains/arm-eabi-linaro-4.6.2/bin/arm-eabi-"
 #TOOLCHAIN="/home/cocafe/Android/toolchains/arm-eabi-linaro-4.4.5/bin/arm-eabi-"
 #TOOLCHAIN="/home/cocafe/Android/toolchains/arm-eabi-linaro-4.5.4/bin/arm-eabi-"
 #TOOLCHAIN="/home/cocafe/Android/toolchains/arm-eabi-linaro-4.6.3/bin/arm-eabi-"
