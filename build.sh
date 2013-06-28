@@ -26,7 +26,7 @@ case "$1" in
 		;;
 	*)
 		echo -e "\n\n Configuring I9070 Kernel...\n\n"
-		make u8500_CoCore_mini_defconfig ARCH=arm CROSS_COMPILE=$TOOLCHAIN
+		make u8500_CoCore-E_defconfig ARCH=arm CROSS_COMPILE=$TOOLCHAIN
 
 		echo -e "\n\n Compiling I9070 Kernel and Modules... \n\n"
 		make -j3 ARCH=arm CROSS_COMPILE=$TOOLCHAIN CONFIG_INITRAMFS_SOURCE=$INITRAMFSDIR
